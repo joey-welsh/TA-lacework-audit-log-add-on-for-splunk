@@ -10,6 +10,8 @@ https://support.lacework.com/hc/en-us/articles/360011403853-Generate-API-Access-
 #### Download Directly Into $SPLUNK_HOME/etc/apps
 $SPLUNK_HOME is the base path of Splunk. On Linux it's typically /opt/splunk.
 
+* Ensure git is installed on your OS
+
 - cd $SPLUNK_HOME/etc/apps
 - git clone git@github.com:joey-welsh/TA-lacework-audit-log-add-on-for-splunk.git
 - $SPLUNK_HOME/bin/splunk restart

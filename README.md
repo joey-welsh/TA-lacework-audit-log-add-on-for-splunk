@@ -22,7 +22,6 @@ https://support.lacework.com/hc/en-us/articles/360011403853-Generate-API-Access-
 
 ##### Windows
 - git clone git@github.com:joey-welsh/TA-lacework-audit-log-add-on-for-splunk.git
-- COPYFILE_DISABLE=true
 - tar --exclude=".*" -cvzf TA-lacework-audit-log-add-on-for-splunk.tgz TA-lacework-audit-log-add-on-for-splunk
 
 ### How to Configure

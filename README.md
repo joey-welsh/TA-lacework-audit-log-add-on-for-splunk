@@ -9,14 +9,6 @@ https://support.lacework.com/hc/en-us/articles/360011403853-Generate-API-Access-
 
 **Ensure [git](https://git-scm.com/downloads) is installed on your OS**
 
-#### Download Directly Into $SPLUNK_HOME/etc/apps
-$SPLUNK_HOME is the base path of Splunk. On Linux it's typically /opt/splunk.
-
-- cd $SPLUNK_HOME/etc/apps
-- git clone git@github.com:joey-welsh/TA-lacework-audit-log-add-on-for-splunk.git
-- chown -R splunk:splunk TA-lacework-audit-log-add-on-for-splunk
-- $SPLUNK_HOME/bin/splunk restart
-
 #### To Upload Via Splunk UI - Create App tgz First
 
 ##### Linux

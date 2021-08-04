@@ -7,6 +7,12 @@ https://support.lacework.com/hc/en-us/articles/360011403853-Generate-API-Access-
 
 ### How to Install This App
 
+Ensure [git](https://git-scm.com/downloads) is installed on your OS
+
+#### Mac OS
+- git clone git@github.com:joey-welsh/TA-lacework-audit-log-add-on-for-splunk.git
+- COPYFILE_DISABLE=true
+- tar --exclude=".*" -cvzf TA-lacework-audit-log-add-on-for-splunk.tgz TA-lacework-audit-log-add-on-for-splunk
 
 ### How to Configure
 1. Switch App Context to "Lacework Audit Log Add-on For Splunk"
